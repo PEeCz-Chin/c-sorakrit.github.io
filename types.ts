@@ -1,4 +1,3 @@
-import { FunctionComponent } from "react";
 import { IconType } from "react-icons";
 export interface Service {
   Icon: IconType;
@@ -17,9 +16,13 @@ export interface IProject {
   description: string;
   image_path: string;
   deployed_url: string;
-  github_url: string;
   category: Category[];
-  key_techs: string[];
+  framework: Frameworks[];
+  language: Languages[];
+  key_techs: Techs[];
 }
 
-export type Category = "react" | "node" | "express" | "django" | "mongo";
+export type Category = "website" | "application";
+export type Frameworks = "nestjs" | "nodejs" | "django" | "laravel" | "codeigniter" | "flask"
+export type Languages = "javascript" | "typescript" | "php" | "python" | "postgresql" | "mongo" | "mysql"
+export type Techs = "apache kafka" | "bull-queue" | "aws sqs" | "redis" | "jenkins" | "docker" | "minio" | "aws s3" | "socket io" | "stripe api" | "mqtt" | "wulian api"

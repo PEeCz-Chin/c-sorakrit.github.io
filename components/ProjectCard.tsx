@@ -15,7 +15,6 @@ const ProjectCard: FunctionComponent<{
     category,
     deployed_url,
     description,
-    github_url,
     key_techs,
   },
 }) => {
@@ -23,12 +22,12 @@ const ProjectCard: FunctionComponent<{
 
   return (
     <div>
-      <Image
+      <img
         src={image_path}
         alt={name}
         className="cursor-pointer"
         onClick={() => setShowDetail(true)}
-        layout="responsive"
+        // layout="responsive"
         height="150"
         width="300"
       />
@@ -53,12 +52,6 @@ const ProjectCard: FunctionComponent<{
               width="300"
             />
             <div className="flex justify-center my-4 space-x-3">
-              <Link
-                href={github_url}
-                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
-              >
-                <AiFillGithub /> <span>Github</span>
-              </Link>
               <Link
                 href={deployed_url}
                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"

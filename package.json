@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@babel/helper-compilation-targets": "^7.22.15",
-    "@types/node": "^14.14.22",
+    "@types/node": "^18.18.2",
     "@types/react": "^17.0.0",
     "autoprefixer": "^10.2.4",
     "postcss": "^8.2.4",

@@ -1,6 +1,6 @@
 import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { AiOutlineAntDesign, AiOutlineApi, AiFillCheckCircle } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { IProject, Service, Skill } from "./types";
 
@@ -8,96 +8,233 @@ import { BsCircleFill } from "react-icons/bs";
 
 export const services: Service[] = [
   {
-    Icon: RiComputerLine,
-    title: "Frontend Development",
+    Icon: AiFillCheckCircle,
+    title: "Tech Lead Backend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      `
+      I am a technology leader and provide guidance on the use of libraries in the project we are currently working on to enhance<br/> 
+      the capabilities of personnel in the team.
+      <br/><br/>
+      
+      Supervise, control, and improve code quality, code structure, design/modify database structures for maximum efficiency<br/> in software operation. 
+      <br/><br/>
+
+      Monitor, troubleshoot, and identify errors (bugs) occurring in both the development and production bases, and address them accordingly.
+      <br/><br/>
+
+      
+      Ready and willing to fulfill duties both during and outside of regular working hours, wholeheartedly prepared to perform tasks,<br/>
+       and serve as a consultant to colleagues effectively, except when engaged in prior commitments, unreachable, inconvenient,<br/> or located in a different province, etc.
+      <br/><br/>
+      `,
   },
   {
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      `
+      Handling databases, servers, APIs, Docker, and version control using popular frameworks and having over 6 years of<br/>
+      experience development.
+      `,
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
-  },
-  {
-    Icon: MdDeveloperMode,
-    title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
-  },
-  {
-    Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
-    about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
-  },
-  {
-    Icon: RiComputerLine,
-    title: "Whatever",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
-  },
+      `
+      I can develop robust  Restful API using <b>NestJS API</b>  & <b>Node API</b> 
+      <br/><br/>
+
+      I can design the code structure, architecture, and data flow for the team, as well as create various common helpers,<br/>
+      allowing the team to continue development without compromising the timeline.
+      `,
+  }
 ];
 
 export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Python",
-    level: "45",
+    name: "JavaScript",
+    level: "97",
   },
   {
     Icon: BsCircleFill,
-    name: "Java Script",
+    name: "TypeScript",
+    level: "97",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "NodeJS Framework",
+    level: "97",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "NestJS Framework",
+    level: "97",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "PHP",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Codeigniter Framework",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Laravel Framework",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Golang",
+    level: "50",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Python",
     level: "60",
   },
   {
     Icon: BsCircleFill,
-    name: "React Native",
-    level: "80",
+    name: "PostgreSQL",
+    level: "90",
   },
   {
     Icon: BsCircleFill,
-    name: "React",
-    level: "70",
+    name: "MySQL",
+    level: "90",
   },
   {
     Icon: BsCircleFill,
-    name: "Django",
-    level: "80",
+    name: "MongoDB",
+    level: "90",
   },
   {
     Icon: BsCircleFill,
-    name: "Bootstrap",
-    level: "80",
+    name: "Elasticsearch",
+    level: "90",
   },
+  {
+    Icon: BsCircleFill,
+    name: "TypeORM",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "PrismaORM",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "RabbitMQ",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Apache Kafka",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Redis",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Aws S3 Object-Storage",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Min.io Object-Storage",
+    level: "90",
+  }
 ];
 
 export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Figma",
+    name: "ClickUp Task Management",
     level: "85",
   },
   {
     Icon: BsCircleFill,
-    name: "Photoshop",
-    level: "45",
+    name: "JIRA Atlassian",
+    level: "85",
   },
   {
     Icon: BsCircleFill,
-    name: "Illustrator",
-    level: "60",
+    name: "GitLab / GitHub / BitBucket",
+    level: "95",
   },
   {
     Icon: BsCircleFill,
-    name: "Framer",
-    level: "45",
+    name: "Slack / Microsoft Team / Zoom / Google Meet",
+    level: "95",
   },
+  {
+    Icon: BsCircleFill,
+    name: "Jenkins",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Grafana K6",
+    level: "85",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Docker",
+    level: "95",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "SonarQube",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Draw.io",
+    level: "100",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Software Architecture",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Flowchart Diagram",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Activity Diagram",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Sequence Diagram",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Class Diagram",
+    level: "90",
+  },,
+  {
+    Icon: BsCircleFill,
+    name: "Software Diagram",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "System Design (DMZ)",
+    level: "90",
+  }
 ];
 
 export const projects: IProject[] = [

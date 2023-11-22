@@ -15,7 +15,7 @@ const Sidebar = () => {
   return (
     <>
       <Image
-        src="https://imageupload.io/ib/TLOKoZEIv8P3pf1_1699076877.jpg"
+        src="/images/profile.jpg"
         alt="avatar"
         className="mx-auto border rounded-full"
         width={128}
@@ -29,28 +29,6 @@ const Sidebar = () => {
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
       Team Leader Backend
       </p>
-      {/* Resume */}
-      <Link
-        href="https://www.youtube.com/watch?v=CcyveFhvKtI&list=PL7iC7aAJ_ibVCF-2ZK6Qj_fcS4yguJDG9&index=29"
-        download=""
-        className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
-      >
-        <GiTie className="w-6 h-6" />
-        <span>Download Resume</span>
-      </Link>
-
-      {/* Socials */}
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        <Link href="https://www.youtube.com/watch?v=CcyveFhvKtI&list=PL7iC7aAJ_ibVCF-2ZK6Qj_fcS4yguJDG9&index=29" >
-          <AiFillYoutube className="w-8 h-8 cursor-pointer" />
-        </Link>
-        <Link href="https://www.youtube.com/watch?v=CcyveFhvKtI&list=PL7iC7aAJ_ibVCF-2ZK6Qj_fcS4yguJDG9&index=29" >
-          <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
-        </Link>
-        <Link href="https://www.youtube.com/watch?v=CcyveFhvKtI&list=PL7iC7aAJ_ibVCF-2ZK6Qj_fcS4yguJDG9&index=29">
-          <AiFillGithub className="w-8 h-8 cursor-pointer" />
-        </Link>
-      </div>
 
       {/* Contacts */}
       <div

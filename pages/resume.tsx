@@ -12,7 +12,7 @@ const Resume = () => {
           <h5 className="my-3 text-3xl font-bold">Experience</h5>
           <div className="">
             <h5 className="my-2 text-xl font-bold text-yellow-600">In 2020 - now : Digital Associates Co., Ltd</h5>
-            <p className="font-semibold">Tata Consultancy Services</p>
+            <p className="font-semibold">Development Manager, Technical Lead, System Analyst, Software Architecture</p>
             <p className="my-3">I don't know why I am doing this job</p>
             <p className="my-2 text-1xl font-bold text-yellow-700">Project</p>
             <p className="my-2">• Data Collection for Sports Authority of Thailand (Launched)</p>

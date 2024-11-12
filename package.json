@@ -7,9 +7,6 @@
     "build": "next build",
     "start": "next start"
   },
-  "engines": {
-    "node": "18.18.2"
-  },
   "dependencies": {
     "caniuse-lite": "^1.0.30001561",
     "eslint-config-next": "^14.0.1",

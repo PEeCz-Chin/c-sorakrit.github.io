@@ -74,28 +74,13 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "PHP",
-    level: "90",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Codeigniter Framework",
-    level: "90",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Laravel Framework",
-    level: "90",
-  },
-  {
-    Icon: BsCircleFill,
     name: "Golang",
-    level: "50",
+    level: "40",
   },
   {
     Icon: BsCircleFill,
     name: "Python",
-    level: "60",
+    level: "50",
   },
   {
     Icon: BsCircleFill,
@@ -134,7 +119,7 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Apache Kafka",
+    name: "Kafka Message Broker",
     level: "90",
   },
   {
@@ -144,6 +129,11 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
+    name: "WebSocket",
+    level: "90"
+  }
+  {
+    Icon: BsCircleFill,
     name: "Aws S3 Object-Storage",
     level: "90",
   },
@@ -151,6 +141,11 @@ export const languages: Skill[] = [
     Icon: BsCircleFill,
     name: "Min.io Object-Storage",
     level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Microservice Pattern",
+    level: "95",
   }
 ];
 
@@ -162,18 +157,28 @@ export const tools: Skill[] = [
   },
   {
     Icon: BsCircleFill,
+    name: "Lark Management",
+    level: "85",
+  }
+  {
+    Icon: BsCircleFill,
     name: "JIRA Atlassian",
     level: "85",
   },
   {
     Icon: BsCircleFill,
-    name: "GitLab / GitHub / BitBucket",
+    name: "GitLab / GitHub",
     level: "95",
   },
   {
     Icon: BsCircleFill,
     name: "Slack / Microsoft Team / Zoom / Google Meet",
     level: "95",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Nexus Repository",
+    level: "90",
   },
   {
     Icon: BsCircleFill,
@@ -187,7 +192,7 @@ export const tools: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Docker",
+    name: "Docker, Compose, Network",
     level: "95",
   },
   {
@@ -197,8 +202,28 @@ export const tools: Skill[] = [
   },
   {
     Icon: BsCircleFill,
+    name: "JAEGER Tracing",
+    level: "85",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Firebase",
+    level: "85",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Stripe API",
+    level: "85",
+  },
+  {
+    Icon: BsCircleFill,
     name: "Draw.io",
     level: "100",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "ER Diagram",
+    level: "90",
   },
   {
     Icon: BsCircleFill,
@@ -224,7 +249,7 @@ export const tools: Skill[] = [
     Icon: BsCircleFill,
     name: "Class Diagram",
     level: "90",
-  },,
+  },
   {
     Icon: BsCircleFill,
     name: "Software Diagram",

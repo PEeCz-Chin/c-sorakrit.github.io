@@ -12,18 +12,16 @@ const Resume = () => {
           <h5 className="my-3 text-3xl font-bold">Experience</h5>
           <div className="">
             <h5 className="my-2 text-xl font-bold text-yellow-600">In 2020 - now : Digital Associates Co., Ltd</h5>
-            <p className="font-semibold">Tata Consultancy Services</p>
-            <p className="my-3">I don't know why I am doing this job</p>
             <p className="my-2 text-1xl font-bold text-yellow-700">Project</p>
             <p className="my-2">• Data Collection for Sports Authority of Thailand (Launched)</p>
             <p className="my-2">• Registration system for Football Association (Launched)</p>
             <p className="my-2">• Platform Data Management (Launched)</p>
-            <p className="my-2">• Online Learning system for Football Association (Develop)</p>
-            <p className="my-2">• Data Collection for NBTC (Develop)</p>
+            <p className="my-2">• Online Learning system for Football Association (Launched)</p>
+            <p className="my-2">• Software Management for NBTC (Launched & MA)</p>
             <p className="my-2">• Tookdee Website (Launched)</p>
             <p className="my-2 text-1xl font-bold text-yellow-700">Product</p>
-            <p className="my-2">• Intensive Voice (Develop)</p>
-            <p className="my-2">• People Counting (Design)</p>
+            <p className="my-2">• Intensive Voice (Launched)</p>
+            <p className="my-2">• People Counting (Launched)</p>
 
           </div>
         </div>

@@ -131,7 +131,7 @@ export const languages: Skill[] = [
     Icon: BsCircleFill,
     name: "WebSocket",
     level: "90"
-  }
+  },
   {
     Icon: BsCircleFill,
     name: "Aws S3 Object-Storage",
@@ -159,7 +159,7 @@ export const tools: Skill[] = [
     Icon: BsCircleFill,
     name: "Lark Management",
     level: "85",
-  }
+  },
   {
     Icon: BsCircleFill,
     name: "JIRA Atlassian",
